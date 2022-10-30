@@ -1,8 +1,8 @@
-x=int(input())
+x=int(input('Enter no of students:'))
 lst=[]
 for i in range(x):
-    name = input()
-    score = float(input())
+    name = input('Enter name:')
+    score = float(input('Enter mark:'))
     lst1=[]
     lst1.append(name)
     lst1.append(score)
